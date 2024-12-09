@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: user
-        image: joindevops/user:1.0.0
+        image: srinualajangi/user:v1
         envFrom:
         - configMapRef:
             name: user

@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: payment
-        image: joindevops/payment:1.0.0
+        image: srinualajangi/payment:v1
         envFrom:
         - configMapRef:
             name: payment
